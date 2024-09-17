@@ -185,7 +185,7 @@ exports.addReview = async (req, res) => {
     }
 };
 
-export const updateBusinessCustomization = async (req, res) => {
+exports.updateBusinessCustomization = async (req, res) => {
     const { id } = req.params;
     const { theme, additionalDetails } = req.body;
 
